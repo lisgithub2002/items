@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Product Category</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/kendo.common.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/kendo.default-main.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/kendo.default.mobile.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/feathericon.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-kendo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+</head>
+
+<body>
+    <div class="containerX">
+        <div class="topbar-section d-flex align-items-center">
+            <a href="items.html" class="side-arrow">
+                <img src="assets/images/side-arrow.svg" class="img-fluid" alt="" />
+            </a>
+            <p class="topbar-heading">
+                <span class="text-chnages">Product Category</span>
+            </p>
+        </div>
+        <div class="Choose-Date-items">
+            <div class="Searchbar-items d-flex">
+                <input type="search" placeholder="Search">
+                <img src="assets/images/search-icon.svg" class="img-fluid" alt="">
+            </div>
+
+            <div class="page-items d-flex align-items-center gap-2 justify-content-center Showperpage-bottom-toggle">
+                <p>1 to 10</p>
+                <img src="assets/images/arrow-black.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="page-content-section margin-container">
+            <div class="Convenience-section">
+                <ul class="AdjustmentReasons-box">
+                    <li class="mt-0">
+                        <p>Energy Drink</p>
+                        <div class="DeleteEdit-btn">
+                            <a href="#" class="Delete-btn">Delete</a>
+                            <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Hostess</p>
+                        <div class="DeleteEdit-btn">
+                            <a href="#" class="Delete-btn">Delete</a>
+                            <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Red Bull 8oz</p>
+                        <div class="DeleteEdit-btn">
+                            <a href="#" class="Delete-btn">Delete</a>
+                            <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Breakfast Taco</p>
+                        <div class="DeleteEdit-btn">
+                            <a href="#" class="Delete-btn">Delete</a>
+                            <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Breakfast Burrito</p>
+                        <div class="DeleteEdit-btn">
+                            <a href="#" class="Delete-btn">Delete</a>
+                            <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Breakfast Bowl</p>
+                        <div class="DeleteEdit-btn">
+                            <a href="#" class="Delete-btn">Delete</a>
+                            <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="save-btn AddNewRecord-bottam AddNewRecord-bottombar-toggle">
+        <button>Add New Record</button>
+    </div>
+
+    <!-- Add New Record -->
+    <div class="AddNewRecord-bottombar bottombar-layout">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="date-time-text">
+                <p>Add New Record</p>
+            </div>
+
+            <div class="AddNewRecord-bottombar-toggle">
+                <img src="assets/images/close-icon.svg" alt="" />
+            </div>
+        </div>
+
+        <div class="AdjustmentReason-input">
+            <label for="">Category Name</label>
+            <input type="text" />
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <label for="Active">Active</label>
+            <input class="k-checkbox k-theme-checkbox mt-0" name="houston" id="Active" type="checkbox">
+        </div>
+
+        <div class="save-btn mt-4">
+            <button class="AddNewRecord-bottombar-toggle ">Save</button>
+        </div>
+    </div>
+
+
+    <div class="black-overlay"></div>
+
+    <!--js -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/moment.js"></script>
+    <script src="assets/js/daterangepicker.min.js"></script>
+    <script src="assets/js/kendo.all.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom-kendo.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

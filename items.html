@@ -1,0 +1,2749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="author" content="" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>Items</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/kendo.common.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/kendo.default-main.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/kendo.default.mobile.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/feathericon.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/custom-kendo.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+</head>
+
+<body>
+  <div class="containerX">
+    <div class="topbar-section d-flex align-items-center justify-content-between">
+      <a href="javascript:void(0)" class="side-arrow">
+        <img src="assets/images/side-arrow.svg" class="img-fluid" alt="" />
+      </a>
+      <p class="Reason-bottombar-toggle">
+        <span class="text-chnages">Items</span>
+        <img src="assets/images/dwon-arrow.svg" alt="">
+      </p>
+      <p class="text-chnages d-none textnew-heading text-center">Dart Horizon 44oz Pedesta</p>
+      <div class="filter-frame">
+      </div>
+    </div>
+
+    <div class="page-content-section ">
+      <div class="tabs-theme tabs-main-theme tabs-with-filter-btn" id="POSLive-tabs">
+
+        <ul>
+          <li id="Item-tab" class="k-active">Item</li>
+          <li id="CartonItemMapping-tab">Carton Item Mapping</li>
+          <li id="ItemCodes-tab">Item Codes</li>
+          <li id="MultiPacks-tab">Multi Packs</li>
+          <li id="PriceHistory-tab">Price History</li>
+          <li id="LocationWisePrice">Location Wise Price</li>
+          <li id="PurchaseHistory-tab">Purchase History</li>
+          <li id="SalesHistory-tab" >Sales History</li>
+        </ul>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+
+            <div class="tab-inner-content">
+              <div class="margin-container">
+                <div class="Convenience-section">
+
+                  <ul class="Item-Ul">
+
+                    <li class="ScanCode-li">
+                      <div>
+                        <label for="">Scan Code</label>
+                        <div class="scancode-input">
+                          <input type="text" name="" id="">
+                          <img src="assets/images/scancode.svg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="Generate-items">
+                        <p>Generate PLU</p>
+                        <button>Reset</button>
+                      </div>
+                    </li>
+
+                    <li class="d-flex justify-content-between align-items-center">
+                      <label for="CafeandBakeries">Repeat Last Values?</label>
+                      <input class="k-checkbox k-theme-checkbox mt-0" name="houston" id="CafeandBakeries"
+                        type="checkbox">
+                    </li>
+
+                    <li class="d-flex justify-content-between align-items-center">
+
+                      <label for="">Order Image</label>
+                      <div class="scancode-items-two">
+                        <img src="assets/images/white-check.svg" class="checkcodeCount" alt="">
+                        <img src="assets/images/scancode.svg" alt="">
+                      </div>
+                    </li>
+
+                    <li
+                      class="d-flex justify-content-between align-items-center border-0 SelectLocation-bottombar-toggle">
+
+                      <label for="">Location(s)</label>
+                      <img src="assets/images/green-arrow.svg" alt="">
+                    </li>
+
+
+
+                  </ul>
+
+                  <div class="ItemDetails-box">
+                    <p class="heding-text">Item Details</p>
+
+                    <div class="ItemDetails-input">
+                      <label for="">Item Description</label>
+                      <input type="text">
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Department</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="Department-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Department</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="ProductCategory-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <a href="product-category.html" class="AddProduct-text">
+                          <span>+</span>
+                          <p>Product Category</p>
+                        </a>
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Price Group</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="PriceGroup-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="AddProduct-text">
+                          <span>+</span>
+                          <p class="AddPriceGroup-bottombar-toggle">Add Price Group</p>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Payee</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="Payee-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="AddProduct-text AddPayee-bottombar-toggle">
+                          <span>+</span>
+                          <p>Add Payee</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Sale Type</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="SaleType-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="ItemDetails-input">
+                        <label for="">Current Quantity</label>
+                        <input type="text">
+                      </div>
+
+                    </div>
+
+                    <p class="heding-text mt-3">Price Details</p>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+
+                      <div class="ItemDetails-input">
+                        <label for="">Units/Case</label>
+                        <input type="text">
+                      </div>
+                      <div class="ItemDetails-input">
+                        <label for="">Case Cost</label>
+                        <input type="text">
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div class="ItemDetails-input">
+                        <label for="">Case Discount</label>
+                        <input type="text">
+                      </div>
+                      <div class="ItemDetails-input">
+                        <label for="">Unit Retail</label>
+                        <input type="text">
+                      </div>
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div class="ItemDetails-input">
+                        <label for="">Case Rebate</label>
+                        <input type="text">
+                      </div>
+                      <div class="ItemDetails-input">
+                        <label for="">Cartzie Price</label>
+                        <input type="text">
+                      </div>
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Unit of Measure</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="UnitofMeasure-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Size</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="Size-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ">
+                      <div class="ItemDetails-input">
+                        <label for="">Cost/Unit After Discount</label>
+                        <input type="text">
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div class="ItemDetails-input">
+                        <label for="">Margin</label>
+                        <input type="text">
+                      </div>
+                      <div class="ItemDetails-input">
+                        <label for="" class="text-nowrap">Margin After Rebate</label>
+                        <input type="text">
+                      </div>
+                    </div>
+
+
+                    <p class="heding-text mt-3">POS Details</p>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+
+                      <div class="ItemDetails-input">
+                        <label for="">Max Inv</label>
+                        <input type="text">
+                      </div>
+                      <div class="ItemDetails-input">
+                        <label for="">Min Inv</label>
+                        <input type="text">
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Min Age</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="MinAge-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Tax Rate</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="TaxRate-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ">
+                      <div class="ItemDetails-input">
+                        <label for="">NACS Code</label>
+                        <input type="text">
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Blue Law (Commander)</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="BlueLaw-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+
+
+                    <div class="ItemDetails-input mt-3 ItemDetails-grid">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">NACS Category</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="NACSCategory-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label text-nowrap">NACS Sub Category</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="NACSSubCategory-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ">
+                      <div class="ItemDetails-input">
+                        <label for="">Kitchen Print/KDS Option</label>
+                        <input type="text">
+                      </div>
+
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ">
+                      <div>
+                        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+                          <label class="form-label">Linked Item</label>
+                          <div class="simple-select simple-form-select simple-select-arrow w-100">
+                            <select id="LinkedItem-select">
+                              <option value="0">Select</option>
+                              <option value="1">Item 1</option>
+                              <option value="2">Item 2</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="AddProduct-text LinkedItems-bottombar-toggle">
+                          <span>+</span>
+                          <p>Add Linked Items</p>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+
+                    <div class="Allow-items">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <label for="allow">Allow EBT</label>
+                        <input class="k-checkbox k-theme-checkbox mt-0" id="allow" type="checkbox">
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <label for="CartzieItem">Cartzie Item</label>
+                        <input class="k-checkbox k-theme-checkbox mt-0" id="CartzieItem" type="checkbox">
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <label for="TrackInventoryItem">Track Inventory Item</label>
+                        <input class="k-checkbox k-theme-checkbox mt-0" id="TrackInventoryItem" type="checkbox">
+                      </div>
+                    </div>
+
+                    <div class="ItemDetails-input mt-3 ">
+                      <div class="ItemDetails-input">
+                        <label for="">Ingredient for Label Packaging</label>
+                        <textarea></textarea>
+                      </div>
+
+                    </div>
+
+                    <div class="save-btn mt-4 ">
+                      <button>Save</button>
+                    </div>
+
+                  </div>
+
+
+
+
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="margin-container">
+                <div class="Convenience-section CartonItemMapping-tab">
+
+                  <a href="#" class="AdjustmentReasons-btn CartonMapping-bottombar-toggle">Carton Mapping</a>
+
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion" id="accordionaCartonMapping">
+
+                      <div class="accordion-item ">
+
+                        <div class="AddPriceGroup-items bg-accordion" data-bs-toggle="collapse"
+                          data-bs-target="#CartonMapping" aria-expanded="false" aria-controls="CartonMapping">
+                          <ul class="Convenience-button ">
+                            <li class="d-flex justify-content-between align-items-center gap-2">
+                              <label>Carton Mapping Info</label>
+                            </li>
+
+                            <li class="accordion-green-arrow">
+                              <img src="assets/images/accordion-arrow.svg" alt="">
+                            </li>
+
+
+                          </ul>
+
+
+
+                        </div>
+
+                        <div id="CartonMapping" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaCartonMapping">
+                          <div class="accordion-body p-0">
+                            <ul class="Mapping-items">
+                              <li>
+                                <p class="Mapping-text">Mapping for 12pk Coke</p>
+                                <div class="Units-itmes">
+                                  <p class="Units-text">Units per Case: <span>4</span></p>
+                                  <p class="Mapped-text">Mapped Qty: <span>6</span></p>
+                                </div>
+
+                              </li>
+                              <li class="mt-3">
+                                <p class="Mapping-text">Mapping for 6pk long neck bottle</p>
+                                <div class="Units-itmes">
+                                  <p class="Units-text">Units per Case: <span>2</span></p>
+                                  <p class="Mapped-text">Mapped Qty: <span>12</span></p>
+                                </div>
+
+                              </li>
+                              <li class="mt-3">
+                                <p class="Mapping-text">Mapping for Carton Cig</p>
+                                <div class="Units-itmes">
+                                  <p class="Units-text">Units per Case: <span>2</span></p>
+                                  <p class="Mapped-text">Mapped Qty: <span>12</span></p>
+                                </div>
+
+                              </li>
+                              <li class="mt-3">
+                                <p class="Mapping-text">Mapping for 16oz Beer 6pk</p>
+                                <div class="Units-itmes">
+                                  <p class="Units-text">Units per Case: <span>2</span></p>
+                                  <p class="Mapped-text">Mapped Qty: <span>12</span></p>
+                                </div>
+
+                              </li>
+
+                            </ul>
+
+
+                          </div>
+                        </div>
+
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+
+                  <p class="Merchandise-text ">Single Item Mappings</p>
+
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion" id="accordionaSingleItemMappings">
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input">
+                                <p>Dart Horizon 44oz Pedesta</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Scan Code</p>
+                              <span>000000347654</span>
+                            </li>
+                            <li>
+                              <p>Pack Quantity</p>
+                              <span>13</span>
+                            </li>
+                            <li>
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="SingleItemMappingsOne" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaSingleItemMappings">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>-117.09%</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#SingleItemMappingsOne"
+                          aria-expanded="false" aria-controls="SingleItemMappingsOne">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input">
+                                <p>Dart Horizon 44oz Pedesta</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Scan Code</p>
+                              <span>000000347654</span>
+                            </li>
+                            <li>
+                              <p>Pack Quantity</p>
+                              <span>13</span>
+                            </li>
+                            <li>
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="SingleItemMappingstwo" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaSingleItemMappings">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>-117.09%</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#SingleItemMappingstwo"
+                          aria-expanded="false" aria-controls="SingleItemMappingstwo">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+
+                  <p class="Merchandise-text ">Existing Carton Mappings</p>
+
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion" id="accordionaExistingCartonMappings">
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input">
+                                <p>Dart Horizon 44oz Pedesta</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Scan Code</p>
+                              <span>000000347654</span>
+                            </li>
+                            <li>
+                              <p>Pack Quantity</p>
+                              <span>13</span>
+                            </li>
+                            <li>
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+
+                        <div id="ExistingCartonMappingsOne" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaExistingCartonMappings">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>-117.09%</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse"
+                          data-bs-target="#ExistingCartonMappingsOne" aria-expanded="false"
+                          aria-controls="ExistingCartonMappingsOne">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input">
+                                <p>Dart Horizon 44oz Pedesta</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Scan Code</p>
+                              <span>000000347654</span>
+                            </li>
+                            <li>
+                              <p>Pack Quantity</p>
+                              <span>13</span>
+                            </li>
+                            <li>
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="ExistingCartonMappingstwo" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaExistingCartonMappings">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>-117.09%</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse"
+                          data-bs-target="#ExistingCartonMappingstwo" aria-expanded="false"
+                          aria-controls="ExistingCartonMappingstwo">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="margin-container">
+                <div class="CartonItemMapping-tab">
+                  <div class="ItemCode-data ">
+                    <div>
+                      <p>Item Code not Assigned.</p>
+                      <button class="ItemCode-bottombar-toggle">Add New Record</button>
+                    </div>
+                  </div>
+
+                  <div class="ItemCodes-section d-none">
+                    <ul class="AdjustmentReasons-box">
+                      <li class="mt-0">
+                        <div>
+                          <p>023434242323</p>
+                          <span>941 Tax</span>
+                        </div>
+                        <div class="DeleteEdit-btn">
+                          <a href="#" class="Delete-btn">Delete</a>
+                          <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>023434242323</p>
+                          <span>941 Tax</span>
+                        </div>
+                        <div class="DeleteEdit-btn">
+                          <a href="#" class="Delete-btn">Delete</a>
+                          <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>023434242323</p>
+                          <span>941 Tax</span>
+                        </div>
+                        <div class="DeleteEdit-btn">
+                          <a href="#" class="Delete-btn">Delete</a>
+                          <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>023434242323</p>
+                          <span>941 Tax</span>
+                        </div>
+                        <div class="DeleteEdit-btn">
+                          <a href="#" class="Delete-btn">Delete</a>
+                          <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>023434242323</p>
+                          <span>941 Tax</span>
+                        </div>
+                        <div class="DeleteEdit-btn">
+                          <a href="#" class="Delete-btn">Delete</a>
+                          <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>023434242323</p>
+                          <span>941 Tax</span>
+                        </div>
+                        <div class="DeleteEdit-btn">
+                          <a href="#" class="Delete-btn">Delete</a>
+                          <a href="#" class="Edit-btn">Edit</a>
+                        </div>
+                      </li>
+
+
+                    </ul>
+
+                    <div class="save-btn AddNewRecord-bottam d-flex">
+                      <button>Add New Record</button>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="margin-container">
+                <div class="CartonItemMapping-tab">
+                  <a href="multi-pack-items.html" class="AdjustmentReasons-btn">View all Multi packs</a>
+                  <div class=" Multipacks-data">
+                    <div>
+                      <p>No Multipacks Assigned.</p>
+                      <span>Click on Add New Record to assign</span>
+                      <button class="Multipacks-bottombar-toggle">Add New Record</button>
+                    </div>
+                  </div>
+
+                  <div class="Multipacks-section d-none">
+                    <div class="AddPrice-accordion  Convenience-accordion">
+                      <div class="accordion" id="accordionaMultipacks">
+
+                        <div class="accordion-item Itemstab-box">
+                          <h2 class="accordion-header">
+                            <div class="boder-bottom-items">
+                              <div class="Edit-contant bg-accordion ">
+                                <div class="width-input">
+                                  <p>Dart Horizon 44oz Pedesta</p>
+                                </div>
+                                <div class="Edit-Delete-btn">
+                                  <button class="Delete-btn bg-white">Delete</button>
+                                  <button class="Edit-Button">Edit</button>
+                                </div>
+
+                              </div>
+                            </div>
+
+                            <ul class="BoxScanCode-items">
+                              <li class="mt-0">
+                                <p>Scan Code</p>
+                                <span>000000347654</span>
+                              </li>
+                              <li>
+                                <p>Qty</p>
+                                <span>23</span>
+                              </li>
+                              <li>
+                                <p>Retail</p>
+                                <span>$787,878.00</span>
+                              </li>
+
+                            </ul>
+                          </h2>
+                          <div id="MultipacksOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionaMultipacks">
+                            <ul class="BoxScanCode-items pt-0">
+                              <li class="mt-0">
+                                <p>Cost</p>
+                                <span>$0.00</span>
+                              </li>
+                              <li>
+                                <p>Linked Item</p>
+                                <span>Bacon</span>
+                              </li>
+                              <li>
+                                <p>Margin</p>
+                                <span>100.00%</span>
+                              </li>
+
+
+                            </ul>
+                          </div>
+
+                          <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#MultipacksOne"
+                            aria-expanded="false" aria-controls="MultipacksOne">
+                            <span class="Show-text Show-more">Show more</span>
+                            <span class="Show-text Show-less">Show less</span>
+                            <img src="assets/images/light-arrow.svg" alt="" />
+                          </button>
+                        </div>
+
+                        <div class="accordion-item Itemstab-box">
+                          <h2 class="accordion-header">
+                            <div class="boder-bottom-items">
+                              <div class="Edit-contant bg-accordion ">
+                                <div class="width-input">
+                                  <p>Dart Horizon 44oz Pedesta</p>
+                                </div>
+                                <div class="Edit-Delete-btn">
+                                  <button class="Delete-btn bg-white">Delete</button>
+                                  <button class="Edit-Button">Edit</button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <ul class="BoxScanCode-items">
+                              <li class="mt-0">
+                                <p>Scan Code</p>
+                                <span>000000347654</span>
+                              </li>
+                              <li>
+                                <p>Qty</p>
+                                <span>23</span>
+                              </li>
+                              <li>
+                                <p>Retail</p>
+                                <span>$787,878.00</span>
+                              </li>
+                            </ul>
+                          </h2>
+                          <div id="Multipackstwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionaMultipacks">
+                            <ul class="BoxScanCode-items pt-0">
+                              <li class="mt-0">
+                                <p>Cost</p>
+                                <span>$0.00</span>
+                              </li>
+                              <li>
+                                <p>Linked Item</p>
+                                <span>Bacon</span>
+                              </li>
+                              <li>
+                                <p>Margin</p>
+                                <span>100.00%</span>
+                              </li>
+
+
+                            </ul>
+                          </div>
+
+                          <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#Multipackstwo"
+                            aria-expanded="false" aria-controls="Multipackstwo">
+                            <span class="Show-text Show-more">Show more</span>
+                            <span class="Show-text Show-less">Show less</span>
+                            <img src="assets/images/light-arrow.svg" alt="" />
+                          </button>
+                        </div>
+
+
+
+
+                      </div>
+                    </div>
+
+                    <div class="save-btn AddNewRecord-bottam d-flex">
+                      <button>Add New Record</button>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="margin-container">
+                <div class="Convenience-section CartonItemMapping-tab">
+
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion" id="accordionaPriceHistory">
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Description</p>
+                              <span>Dart Horizon 44oz Pedesta</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>01/01/2024</span>
+                            </li>
+                            <li>
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="PriceHistoryOne" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaPriceHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>User</p>
+                              <span>Travis</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#PriceHistoryOne"
+                          aria-expanded="false" aria-controls="PriceHistoryOne">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Description</p>
+                              <span>Dart Horizon 44oz Pedesta</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>01/01/2024</span>
+                            </li>
+                            <li>
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="PriceHistorytwo" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaPriceHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>User</p>
+                              <span>Travis</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#PriceHistorytwo"
+                          aria-expanded="false" aria-controls="PriceHistorytwo">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Description</p>
+                              <span>Dart Horizon 44oz Pedesta</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>01/01/2024</span>
+                            </li>
+                            <li>
+                              <p>Unit Retail</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="PriceHistorythree" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaPriceHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Unit Cost</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>User</p>
+                              <span>Travis</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#PriceHistorythree"
+                          aria-expanded="false" aria-controls="PriceHistorythree">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+
+
+
+
+
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="margin-container">
+                <div class="CartonItemMapping-tab">
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion">
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input d-flex justify-content-between">
+                                <p>Convenience</p>
+                                <div class="DeleteEdit-btn">
+                                  <a href="#" class="Edit-btn EditItemDetails-bottombar-toggle">Edit</a>
+                                </div>
+                              </div>
+
+
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Description</p>
+                              <span>Dart Horizon 44oz Pedesta </span>
+                            </li>
+                            <li>
+                              <p>Department</p>
+                              <span>Taxable</span>
+                            </li>
+                            <li>
+                              <p>Units/Case</p>
+                              <span>324</span>
+                            </li>
+                            <li class="mt-0">
+                              <p>Case Cost</p>
+                              <span>$200</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+
+
+
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input d-flex justify-content-between">
+                                <p>Liquor</p>
+                                <div class="DeleteEdit-btn">
+                                  <a href="#" class="Edit-btn EditItemDetails-bottombar-toggle">Edit</a>
+                                </div>
+                              </div>
+
+
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Description</p>
+                              <span>Dart Horizon 44oz Pedesta </span>
+                            </li>
+                            <li>
+                              <p>Department</p>
+                              <span>Taxable</span>
+                            </li>
+                            <li>
+                              <p>Units/Case</p>
+                              <span>324</span>
+                            </li>
+                            <li class="mt-0">
+                              <p>Case Cost</p>
+                              <span>$200</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+
+
+
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <div class="boder-bottom-items">
+                            <div class="Edit-contant bg-accordion ">
+                              <div class="width-input d-flex justify-content-between">
+                                <p>Fast Food</p>
+                                <div class="DeleteEdit-btn">
+                                  <a href="#" class="Edit-btn EditItemDetails-bottombar-toggle">Edit</a>
+                                </div>
+                              </div>
+
+
+                            </div>
+                          </div>
+
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Description</p>
+                              <span>Dart Horizon 44oz Pedesta </span>
+                            </li>
+                            <li>
+                              <p>Department</p>
+                              <span>Taxable</span>
+                            </li>
+                            <li>
+                              <p>Units/Case</p>
+                              <span>324</span>
+                            </li>
+                            <li class="mt-0">
+                              <p>Case Cost</p>
+                              <span>$200</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>$1.99</span>
+                            </li>
+                            <li>
+                              <p>Margin</p>
+                              <span>$1.99</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+
+
+
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="Location-items SelectLocation-bottombar-toggle">
+                <p>Location(s)</p>
+                <img src="assets/images/arrow-black.svg" alt="">
+              </div>
+              <div class="margin-container">
+                <div class="Convenience-section CartonItemMapping-tab">
+
+
+                  <a href="#" class="AdjustmentReasons-btn ShowPurchase-bottombar-toggle">Show Purchase</a>
+
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion" id="accordionaPurchaseHistory">
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Location</p>
+                              <span>Convenience</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>02/05/2024</span>
+                            </li>
+                            <li>
+                              <p>Payee</p>
+                              <span>----</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="PurchaseHistoryOne" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaPurchaseHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Qty</p>
+                              <span>12</span>
+                            </li>
+                            <li>
+                              <p>Cost</p>
+                              <span>$99</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>----</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#PurchaseHistoryOne"
+                          aria-expanded="false" aria-controls="PurchaseHistoryOne">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Location</p>
+                              <span>Convenience</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>02/05/2024</span>
+                            </li>
+                            <li>
+                              <p>Payee</p>
+                              <span>----</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="PurchaseHistorytwo" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaPurchaseHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Qty</p>
+                              <span>12</span>
+                            </li>
+                            <li>
+                              <p>Cost</p>
+                              <span>$99</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>----</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#PurchaseHistorytwo"
+                          aria-expanded="false" aria-controls="PurchaseHistorytwo">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Location</p>
+                              <span>Convenience</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>02/05/2024</span>
+                            </li>
+                            <li>
+                              <p>Payee</p>
+                              <span>----</span>
+                            </li>
+                          </ul>
+                        </h2>
+                        <div id="PurchaseHistorythree" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaPurchaseHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Qty</p>
+                              <span>12</span>
+                            </li>
+                            <li>
+                              <p>Cost</p>
+                              <span>$99</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>----</span>
+                            </li>
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#PurchaseHistorythree"
+                          aria-expanded="false" aria-controls="PurchaseHistorythree">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-0">
+          <div class="tab-content overflow-visible">
+            <div class="tab-inner-content">
+              <div class="Location-items SelectLocation-bottombar-toggle">
+                <p>Location(s)</p>
+                <img src="assets/images/arrow-black.svg" alt="">
+              </div>
+              <div class="margin-container">
+                <div class="Convenience-section CartonItemMapping-tab">
+
+
+                  <a href="#" class="AdjustmentReasons-btn ShowPurchase-bottombar-toggle">Show Sales</a>
+
+                  <div class="AddPrice-accordion  Convenience-accordion">
+                    <div class="accordion" id="accordionaSalesHistory">
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Location</p>
+                              <span>Convenience</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>02/05/2024</span>
+                            </li>
+                            <li>
+                              <p>Transaction ID</p>
+                              <span>4535343</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="SalesHistoryOne" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaSalesHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Qty</p>
+                              <span>12</span>
+                            </li>
+                            <li>
+                              <p>Cost</p>
+                              <span>$99</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>----</span>
+                            </li>
+                            <li>
+                              <p>Discount</p>
+                              <span>-5%</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#SalesHistoryOne"
+                          aria-expanded="false" aria-controls="SalesHistoryOne">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Location</p>
+                              <span>Convenience</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>02/05/2024</span>
+                            </li>
+                            <li>
+                              <p>Payee</p>
+                              <span>----</span>
+                            </li>
+                            <li>
+                              <p>Transaction ID</p>
+                              <span>4535343</span>
+                            </li>
+
+
+                          </ul>
+                        </h2>
+                        <div id="SalesHistorytwo" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaSalesHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Qty</p>
+                              <span>12</span>
+                            </li>
+                            <li>
+                              <p>Cost</p>
+                              <span>$99</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>----</span>
+                            </li>
+                            <li>
+                              <p>Discount</p>
+                              <span>-5%</span>
+                            </li>
+
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#SalesHistorytwo"
+                          aria-expanded="false" aria-controls="SalesHistorytwo">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+                      <div class="accordion-item Itemstab-box">
+                        <h2 class="accordion-header">
+                          <ul class="BoxScanCode-items">
+                            <li class="mt-0">
+                              <p>Location</p>
+                              <span>Convenience</span>
+                            </li>
+                            <li>
+                              <p>Date</p>
+                              <span>02/05/2024</span>
+                            </li>
+                            <li>
+                              <p>Payee</p>
+                              <span>----</span>
+                            </li>
+                            <li>
+                              <p>Transaction ID</p>
+                              <span>4535343</span>
+                            </li>
+
+                          </ul>
+                        </h2>
+                        <div id="SalesHistorythree" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionaSalesHistory">
+                          <ul class="BoxScanCode-items pt-0">
+                            <li class="mt-0">
+                              <p>Qty</p>
+                              <span>12</span>
+                            </li>
+                            <li>
+                              <p>Cost</p>
+                              <span>$99</span>
+                            </li>
+                            <li>
+                              <p>Retail</p>
+                              <span>----</span>
+                            </li>
+                            <li>
+                              <p>Discount</p>
+                              <span>-5%</span>
+                            </li>
+
+
+                          </ul>
+                        </div>
+
+                        <button class="Showmore-btn" data-bs-toggle="collapse" data-bs-target="#SalesHistorythree"
+                          aria-expanded="false" aria-controls="SalesHistorythree">
+                          <span class="Show-text Show-more">Show more</span>
+                          <span class="Show-text Show-less">Show less</span>
+                          <img src="assets/images/light-arrow.svg" alt="" />
+                        </button>
+                      </div>
+
+
+
+
+
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Items -->
+  <div class="Reason-bottombar bottombar-layout ">
+    <ul class="date-detlis-items date-radio-ul">
+      <li class="">
+        <a href="#" class="d-flex justify-content-between">
+          <label for="reasonone">Items</label>
+          <img src="assets/images/check.svg" alt="">
+        </a>
+      </li>
+      <li class="mt-3">
+        <a href="#" class="d-flex justify-content-between">
+          <label for="reasonone">Price Book</label>
+        </a>
+      </li>
+      <li class="mt-3">
+        <a href="#" class="d-flex justify-content-between">
+          <label for="reasonone">Price Group</label>
+        </a>
+      </li>
+      <li class="mt-3">
+        <a href="#" class="d-flex justify-content-between">
+          <label for="reasonone">Categories</label>
+        </a>
+      </li>
+      <li class="mt-3">
+        <a href="#" class="d-flex justify-content-between">
+          <label for="reasonone">Manufacturers</label>
+        </a>
+      </li>
+
+
+
+    </ul>
+  </div>
+
+  <!-- Select Location(s) -->
+  <div class="SelectLocation-bottombar bottombar-layout  p-0">
+
+    <div class="d-flex justify-content-between Select-pading">
+      <div class="date-time-text">
+        <p>Select Location(s)</p>
+      </div>
+      <div class="SelectLocation-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="">
+      </div>
+    </div>
+
+    <div class="SearchLocation">
+      <input type="search" placeholder="Search Location(s)">
+      <img src="assets/images/search-icon.svg" alt="">
+    </div>
+
+    <ul class="SelectAll-items">
+      <li>
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="selectall" type="checkbox">
+          <label for="selectall" class="SelectAll-bold">Select All</label>
+        </div>
+      </li>
+
+      <li class="bg-accordion pt-1 pb-2">
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="Unassigned" type="checkbox">
+          <label for="Unassigned" class="SelectAll-bold">Region: Unassigned</label>
+        </div>
+      </li>
+
+      <li class="liborder-bottam">
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="admin" type="checkbox">
+          <label for="admin">Admin</label>
+        </div>
+      </li>
+
+      <li class="liborder-bottam">
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="fastcasual" type="checkbox">
+          <label for="fastcasual">Fast Casual</label>
+        </div>
+      </li>
+
+      <li>
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="fastfood" type="checkbox">
+          <label for="fastfood">Fast Food</label>
+        </div>
+      </li>
+
+      <li class="bg-accordion pt-1 pb-2">
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="Austin" type="checkbox">
+          <label for="Austin" class="SelectAll-bold">Region: Austin</label>
+        </div>
+      </li>
+
+      <li>
+        <div class="d-flex align-items-center gap-2">
+          <input class="k-checkbox k-theme-checkbox mt-0" name="selectall" id="LiquorCommander" type="checkbox">
+          <label for="LiquorCommander">Liquor - Commander</label>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="save-btn mt-4 Apply-ntn">
+      <button class="SelectLocation-bottombar-toggle">Apply</button>
+    </div>
+
+
+  </div>
+
+  <!-- Linked Items -->
+  <div class="LinkedItems-bottombar bottombar-layout  ">
+
+    <div class="d-flex justify-content-between ">
+      <div class="date-time-text">
+        <p>Linked Items</p>
+      </div>
+      <div class="LinkedItems-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="">
+      </div>
+    </div>
+
+    <div class="ItemDetails-input">
+      <label for="">Scan Code</label>
+      <input type="text" class="w-100">
+    </div>
+
+    <div class="Linked-Items">
+      <ul>
+        <li>
+          <p>PLU</p>
+          <span>105001</span>
+        </li>
+        <li class="mt-2">
+          <p>Item Description</p>
+          <span>Bacon</span>
+        </li>
+      </ul>
+
+      <button class="Delete-button">Delete</button>
+
+    </div>
+
+    <div class="Linked-Items">
+      <ul>
+        <li>
+          <p>PLU</p>
+          <span>105001</span>
+        </li>
+        <li class="mt-2">
+          <p>Item Description</p>
+          <span>Bacon</span>
+        </li>
+      </ul>
+
+      <button class="Delete-button">Delete</button>
+
+    </div>
+
+
+
+    <div class="save-btn mt-4">
+      <button class="LinkedItems-bottombar-toggle">Save</button>
+    </div>
+
+
+  </div>
+
+  <!-- Add Payee -->
+  <div class="AddPayee-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="date-time-text">
+        <p>Add New Record</p>
+      </div>
+
+      <div class="AddPayee-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="AddPayeeitesm-section">
+      <div class="ItemDetails-input mt-3">
+        <label for="">Vendor Name</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Contact Name</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Phone</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Email</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Fax</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">State</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">City</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Zip Code</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Account Number</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3">
+        <label for="">Payment Method</label>
+        <input type="text">
+      </div>
+      <div class="ItemDetails-input mt-3 ">
+        <div class="ItemDetails-input">
+          <label for="">Address 1</label>
+          <textarea rows="3"></textarea>
+        </div>
+      </div>
+      <div class="ItemDetails-input mt-3 ">
+        <div class="ItemDetails-input">
+          <label for="">Address 2</label>
+          <textarea rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="mt-3">
+        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+          <label class="form-label">Terms</label>
+          <div class="simple-select simple-form-select simple-select-arrow w-100">
+            <select id="Terms-select">
+              <option value="0">Select</option>
+              <option value="1">Item 1</option>
+              <option value="2">Item 2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="ItemDetails-input mt-3">
+        <label for="">POS ID</label>
+        <input type="text">
+      </div>
+
+      <div class="mt-3">
+        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+          <label class="form-label">Department</label>
+          <div class="simple-select simple-form-select simple-select-arrow w-100">
+            <select id="Department-AddPayee-select">
+              <option value="0">Select</option>
+              <option value="1">Item 1</option>
+              <option value="2">Item 2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="ItemDetails-input mt-3">
+        <label for="">Default Margin</label>
+        <input type="text">
+      </div>
+
+      <div class="mt-3">
+        <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+          <label class="form-label">Default Bank Account</label>
+          <div class="simple-select simple-form-select simple-select-arrow w-100">
+            <select id="DefaultBankAccount-AddPayee-select">
+              <option value="0">Select</option>
+              <option value="1">Item 1</option>
+              <option value="2">Item 2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="Allow-items">
+        <div class="d-flex justify-content-between align-items-center">
+          <label for="IsEmployee">Is Employee</label>
+          <input class="k-checkbox k-theme-checkbox mt-0" id="IsEmployee" type="checkbox">
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <label for="IsExpense">Is Expense</label>
+          <input class="k-checkbox k-theme-checkbox mt-0" id="IsExpense" type="checkbox">
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <label for="IsCustomer">Is Customer</label>
+          <input class="k-checkbox k-theme-checkbox mt-0" id="IsCustomer" type="checkbox">
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <label for="IsMisc">Is Misc</label>
+          <input class="k-checkbox k-theme-checkbox mt-0" id="IsMisc" type="checkbox">
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <label for="IsmPOS">Is mPOS</label>
+          <input class="k-checkbox k-theme-checkbox mt-0" id="IsmPOS" type="checkbox">
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <label for="IsVendor">Is Vendor</label>
+          <input class="k-checkbox k-theme-checkbox mt-0" id="IsVendor" type="checkbox">
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="save-btn mt-4">
+      <button class="AddPayee-bottombar-toggle">Save</button>
+    </div>
+  </div>
+
+  <!-- Add Price Group -->
+  <div class="AddPriceGroup-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between ">
+      <div class="date-time-text">
+        <p>Add Price Group</p>
+      </div>
+
+      <div class="AddPriceGroup-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="">
+      </div>
+    </div>
+
+    <div class="AddPrice-accordion  Convenience-accordion">
+      <div class="accordion" id="accordionaccordion">
+
+        <div class="accordion-item ">
+
+          <div class="AddPriceGroup-items">
+            <ul class="Convenience-button">
+              <li class="d-flex justify-content-between align-items-center gap-2">
+                <input class="k-checkbox k-theme-checkbox mt-0" name="houston" id="PriceGroup1" type="checkbox">
+                <label for="PriceGroup1">8V757OZ2</label>
+              </li>
+
+              <li class="accordion-green-arrow" data-bs-toggle="collapse" data-bs-target="#AddPriceGroup1"
+                aria-expanded="false" aria-controls="AddPriceGroup1">
+                <img src="assets/images/accordion-arrow.svg" alt="">
+              </li>
+
+
+            </ul>
+
+            <div class="Edit-Delete-btn">
+              <button class="Delete-btn">Delete</button>
+              <button class="Edit-Button">Edit</button>
+            </div>
+
+          </div>
+
+          <div id="AddPriceGroup1" class="accordion-collapse collapse" data-bs-parent="#accordionaccordion">
+            <div class="accordion-body p-0">
+              <div class="AddPriceGroup-contant">
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>Evian Natural Spring Water 16.9O Btl</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>18OZ BAI5 MALAWI MANGO PET LS12</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item  mt-3">
+
+          <div class="AddPriceGroup-items">
+            <ul class="Convenience-button">
+              <li class="d-flex justify-content-between align-items-center gap-2">
+                <input class="k-checkbox k-theme-checkbox mt-0" name="houston" id="PriceGroup2" type="checkbox" disabled
+                  checked>
+                <label for="PriceGroup2">8V757OZ2</label>
+              </li>
+
+              <li class="accordion-green-arrow" data-bs-toggle="collapse" data-bs-target="#AddPriceGroup2"
+                aria-expanded="false" aria-controls="AddPriceGroup2">
+                <img src="assets/images/accordion-arrow.svg" alt="">
+              </li>
+
+
+            </ul>
+
+            <div class="Edit-Delete-btn">
+              <button class="Delete-btn">Delete</button>
+              <button class="Edit-Button">Edit</button>
+            </div>
+
+          </div>
+
+          <div id="AddPriceGroup2" class="accordion-collapse collapse" data-bs-parent="#accordionaccordion">
+            <div class="accordion-body p-0">
+              <div class="AddPriceGroup-contant">
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>Evian Natural Spring Water 16.9O Btl</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>18OZ BAI5 MALAWI MANGO PET LS12</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item mt-3">
+
+          <div class="AddPriceGroup-items">
+            <ul class="Convenience-button">
+              <li class="d-flex justify-content-between align-items-center gap-2">
+                <input class="k-checkbox k-theme-checkbox mt-0" name="houston" id="PriceGroup3" type="checkbox">
+                <label for="PriceGroup3">8V757OZ2</label>
+              </li>
+
+              <li class="accordion-green-arrow" data-bs-toggle="collapse" data-bs-target="#AddPriceGroup3"
+                aria-expanded="false" aria-controls="AddPriceGroup3">
+                <img src="assets/images/accordion-arrow.svg" alt="">
+              </li>
+
+
+            </ul>
+
+            <div class="Edit-Delete-btn">
+              <button class="Delete-btn">Delete</button>
+              <button class="Edit-Button">Edit</button>
+            </div>
+
+          </div>
+
+          <div id="AddPriceGroup3" class="accordion-collapse collapse" data-bs-parent="#accordionaccordion">
+            <div class="accordion-body p-0">
+              <div class="AddPriceGroup-contant">
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>Evian Natural Spring Water 16.9O Btl</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>18OZ BAI5 MALAWI MANGO PET LS12</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item  mt-3">
+
+          <div class="AddPriceGroup-items">
+            <ul class="Convenience-button">
+              <li class="d-flex justify-content-between align-items-center gap-2">
+                <input class="k-checkbox k-theme-checkbox mt-0" name="houston" id="PriceGroup4" type="checkbox" disabled
+                  checked>
+                <label for="PriceGroup4">8V757OZ2</label>
+              </li>
+
+              <li class="accordion-green-arrow" data-bs-toggle="collapse" data-bs-target="#AddPriceGroup4"
+                aria-expanded="false" aria-controls="AddPriceGroup4">
+                <img src="assets/images/accordion-arrow.svg" alt="">
+              </li>
+
+
+            </ul>
+
+            <div class="Edit-Delete-btn">
+              <button class="Delete-btn">Delete</button>
+              <button class="Edit-Button">Edit</button>
+            </div>
+
+          </div>
+
+          <div id="AddPriceGroup4" class="accordion-collapse collapse" data-bs-parent="#accordionaccordion">
+            <div class="accordion-body p-0">
+              <div class="AddPriceGroup-contant">
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>Evian Natural Spring Water 16.9O Btl</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="AddPriceGroup-data">
+                  <div class="EvianNatural-text">
+                    <p>18OZ BAI5 MALAWI MANGO PET LS12</p>
+                    <button>Delete</button>
+                  </div>
+
+                  <ul class="BoxScanCode-items p-0">
+                    <li>
+                      <p>Scan Code</p>
+                      <span>079298400113</span>
+                    </li>
+                    <li>
+                      <p>Department</p>
+                      <span>Beverages</span>
+                    </li>
+                    <li>
+                      <p>Cost</p>
+                      <span>$0.88</span>
+                    </li>
+                    <li>
+                      <p>Retail</p>
+                      <span>$1.39</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="save-btn mt-4">
+      <button class="AddPriceGroup-bottombar-toggle">Save</button>
+    </div>
+
+
+  </div>
+
+  <!-- Carton Mapping -->
+  <div class="CartonMapping-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="date-time-text">
+        <p>Carton Mapping</p>
+      </div>
+
+      <div class="CartonMapping-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Scan Code (Pack/Single Unit)</label>
+      <input type="text">
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Mapped Qty (Pack Qty Per Case/Crtn)</label>
+      <input type="text">
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Description</label>
+      <input type="text">
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Cost</label>
+      <input type="text">
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Retail</label>
+      <input type="text">
+    </div>
+
+
+    <div class="save-btn mt-4">
+      <button class="CartonMapping-bottombar-toggle">Save</button>
+    </div>
+  </div>
+
+  <!-- Item Code Add New Record -->
+  <div class="ItemCode-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="date-time-text">
+        <p>Add New Record</p>
+      </div>
+
+      <div class="ItemCode-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Item Code</label>
+      <input type="text">
+    </div>
+
+    <div class="mt-3">
+      <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+        <label class="form-label">Payee</label>
+        <div class="simple-select simple-form-select simple-select-arrow w-100">
+          <select id="Payee-AddPayee-select">
+            <option value="0">Select</option>
+            <option value="1">Item 1</option>
+            <option value="2">Item 2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="save-btn mt-4">
+      <button class="ItemCode-bottombar-toggle save-data-click">Save</button>
+    </div>
+  </div>
+
+  <!-- Multipacks Add New Record -->
+  <div class="Multipacks-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="date-time-text">
+        <p>Add New Record</p>
+      </div>
+
+      <div class="Multipacks-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Modifier / Qty</label>
+      <input type="text">
+    </div>
+    <div class="ItemDetails-input mt-3">
+      <label for="">Item Cost</label>
+      <input type="text" disabled>
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Enter Retail</label>
+      <input type="text">
+    </div>
+    <div class="ItemDetails-input mt-3">
+      <label for="">Margin</label>
+      <input type="text" disabled>
+    </div>
+
+    <div class="mt-3">
+      <div class="select-wrapper dropdown-wrapper SearchBy-dropdown ">
+        <label class="form-label">Linked Item</label>
+        <div class="simple-select simple-form-select simple-select-arrow w-100">
+          <select id="LinkedItemMultipacks-select">
+            <option value="0">Select</option>
+            <option value="1">Item 1</option>
+            <option value="2">Item 2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="save-btn mt-4">
+      <button class="Multipacks-bottombar-toggle Multipacks-data-click">Save</button>
+      <button class="Reset-btn mt-2 Multipacks-bottombar-toggle">Clear</button>
+    </div>
+  </div>
+
+  <!-- Edit Item Details -->
+  <div class="EditItemDetails-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="date-time-text">
+        <p>Edit Item Details</p>
+      </div>
+
+      <div class="EditItemDetails-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Description</label>
+      <input type="text">
+    </div>
+    <div class="ItemDetails-input mt-3">
+      <label for="">Units/Case</label>
+      <input type="text">
+    </div>
+
+    <div class="ItemDetails-input mt-3">
+      <label for="">Case Cost</label>
+      <input type="text">
+    </div>
+    <div class="ItemDetails-input mt-3">
+      <label for="">Retail</label>
+      <div class="Retail-input d-flex align-items-center position-relative">
+        <input type="text">
+        <p>$</p>
+      </div>
+    </div>
+
+    <div class="save-btn mt-4">
+      <button class="EditItemDetails-bottombar-toggle">Save</button>
+    </div>
+  </div>
+
+  <!-- Show Purchase -->
+  <div class="ShowPurchase-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between">
+      <div class="date-time-text">
+        <p>Show Purchase</p>
+      </div>
+      <div class="ShowPurchase-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <ul class=" date-radio-ul">
+
+      <li class="d-flex justify-content-between mt-3">
+        <label for="showperpagetoday">Today</label>
+        <input type="radio" id="showperpagetoday" name="Choosedate" checked>
+      </li>
+      <li class="d-flex justify-content-between mt-3">
+        <label for="showperpagethree">Yesterday</label>
+        <input type="radio" id="showperpagethree" name="Choosedate">
+      </li>
+      <li class="d-flex justify-content-between mt-3">
+        <label for="showperpagefour">Last 7 Days</label>
+        <input type="radio" id="showperpagefour" name="Choosedate">
+      </li>
+
+
+      <li class="d-flex justify-content-between mt-3 border-0">
+        <label for="Showperpagetwo">Custom Range</label>
+        <input type="radio" id="Showperpagetwo" name="Choosedate">
+      </li>
+
+      <div class="range-date-items">
+        <div class="form-group datepicker-items">
+          <div>
+            <label for="">Starting from</label>
+            <input id="Startingfromtwo-datepicker" value="21 Jun 2023" title="datepicker" />
+          </div>
+        </div>
+        <div class="form-group datepicker-items">
+          <div>
+            <label for="">To</label>
+            <input id="StartingTotwo-datepicker" value="21 Jun 2023" title="datepicker" />
+          </div>
+        </div>
+      </div>
+
+    </ul>
+
+
+
+    <div class="save-btn mt-4">
+      <button class="ShowPurchase-bottombar-toggle">Save</button>
+    </div>
+  </div>
+
+  <!-- Show Sales -->
+  <div class="ShowSales-bottombar bottombar-layout">
+    <div class="d-flex justify-content-between">
+      <div class="date-time-text">
+        <p>Show Sales</p>
+      </div>
+      <div class="ShowSales-bottombar-toggle">
+        <img src="assets/images/close-icon.svg" alt="" />
+      </div>
+    </div>
+
+    <ul class="date-radio-ul">
+
+      <li class="d-flex justify-content-between mt-3">
+        <label for="showperpagetodayShowSales">Today</label>
+        <input type="radio" id="showperpagetodayShowSales" name="ShowSalesChoosedate" checked>
+      </li>
+      <li class="d-flex justify-content-between mt-3">
+        <label for="showperpagethreeShowSales">Yesterday</label>
+        <input type="radio" id="showperpagethreeShowSales" name="ShowSalesChoosedate">
+      </li>
+      <li class="d-flex justify-content-between mt-3">
+        <label for="showperpagefourShowSales">Last 7 Days</label>
+        <input type="radio" id="showperpagefourShowSales" name="ShowSalesChoosedate">
+      </li>
+
+      <li class="d-flex justify-content-between mt-3 border-0">
+        <label for="ShowperpagetwoShowSales">Custom Range</label>
+        <input type="radio" id="ShowperpagetwoShowSales" name="ShowSalesChoosedate">
+      </li>
+
+      <div class="range-date-items">
+        <div class="form-group datepicker-items">
+          <div>
+            <label for="">Starting from</label>
+            <input id="StartingfromShowSales-datepicker" value="21 Jun 2023" title="datepicker" />
+          </div>
+        </div>
+        <div class="form-group datepicker-items">
+          <div>
+            <label for="">To</label>
+            <input id="StartingtoShowSales-datepicker" value="21 Jun 2023" title="datepicker" />
+          </div>
+        </div>
+      </div>
+
+    </ul>
+
+
+
+    <div class="save-btn mt-4">
+      <button class="ShowSales-bottombar-toggle">Save</button>
+    </div>
+  </div>
+
+
+  <div class="black-overlay"></div>
+
+  <!--js -->
+
+  <script src="assets/js/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/moment.js"></script>
+  <script src="assets/js/daterangepicker.min.js"></script>
+  <script src="assets/js/kendo.all.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/custom-kendo.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+
+    $(document).ready(function () {
+      var tabStrip = $("#POSLive-tabs").kendoTabStrip({
+        animation: {
+          open: {
+            effects: "",
+          },
+        },
+        activate: function (e) {
+          var activeTab = $(e.item);
+
+          var scrollContainer = activeTab.closest('.k-tabstrip-items-wrapper');
+
+          var tabWidth = activeTab.outerWidth();
+          var tabOffsetLeft = activeTab.position().left;
+          var containerWidth = scrollContainer.width();
+
+          var scrollPosition = tabOffsetLeft + (tabWidth / 2) - (containerWidth / 2);
+
+          scrollContainer.scrollLeft(scrollPosition);
+        }
+      }).data("kendoTabStrip");
+
+      var initialActiveTab = tabStrip.tabGroup.find(".k-active");
+      if (initialActiveTab.length) {
+        initialActiveTab.trigger('click');
+      }
+    });
+
+
+  </script>
+
+</body>
+
+</html>

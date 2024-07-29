@@ -1,0 +1,50 @@
+.Manufacturer-table-grid tbody tr td {
+    padding: 12px 12px;
+    color: #0b1932;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    line-height: 20px;
+}
+
+.Manufacturer-table-grid thead tr th {
+    border: none;
+    background-color: #fff;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.Manufacturer-table-grid.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: transparent !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: transparent !important;
+}
+
+.UPC-tables thead tr th{
+    background-color: transparent !important;
+    background-color: #fff;
+    padding: 10px 12px;
+    position: relative;
+    border-top: 1px solid #ddd !important;
+    background-color: #F8F9FC !important;
+}
+
+.cartziecategory-table-grid thead tr th {
+    border: none;
+    background-color: transparent;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.cartziecategory-table-grid tbody tr td {
+    padding: 12px 12px;
+    color: #0b1932;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    line-height: 20px;
+    background-color: #F8F9FC !important;
+
+}
